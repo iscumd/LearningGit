@@ -1,5 +1,5 @@
 # LearningGit
-Use this repo to learn Git. Fork, commit, and submit a pull request!
+Use this repo to learn Git. Fork, branch, commit, and submit a pull request!
 
 ## What is Git and GitHub?
 Git is version control software. It allows you to track changes and collaborate when programming. GitHub is built on top of Git, using the standard software on your computer but adding extra features on the web.
