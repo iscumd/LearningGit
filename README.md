@@ -15,9 +15,9 @@ Collaborating with others adds a couple extra steps. You will first need to "for
 ## How do I get started?
 1. Create a GitHub account. 
 2. Download and install Git on your computer. I recommend using [GitHub Desktop](https://desktop.github.com/) on Windows and Mac instead of the standard command-line Git program because it does a lot of the annoying parts for you and provides a GUI that's more intuitive than the command-line interface. Linux users will need to use the standard command-line version of Git, which can be installed on most systems with `sudo apt-get install git`.
-3. Download the GitHub repository to your computer. This is called "cloning" a repository. If you are using GitHub desktop, you can select which if your own repositories you would like to clone by clicking the "+" button in the top left and then clicking "Clone". If you are using the command-line, copy the Git URL from the GitHub repository page by clicking the green "Clone or download" button and running `git clone <your .git URL here>` (example: `git clone https://github.com/iscumd/LearningGit.git`).
+3. Download the GitHub repository to your computer. This is called "cloning" a repository. If you are using GitHub Desktop, you can select which of your own repositories you would like to clone by clicking the "+" button in the top left and then clicking "Clone". If you are using the command-line, copy the Git URL from the GitHub repository page by clicking the green "Clone or download" button and running `git clone <your .git URL here>` (example: `git clone https://github.com/iscumd/LearningGit.git`).
 
-## I would like more information
+## Where can I find more information?
 Here are some other good resources for learning Git.
 * https://help.github.com/ - GitHub's knowledge base for almost every question you could have about Git and GitHub.
 * https://try.github.io/ - A great interactive tutorial on the concepts used in Git. This also teaches the command-line commands.
