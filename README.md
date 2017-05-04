@@ -30,14 +30,15 @@ Here are some other good resources for learning Git.
 2. Git clone `git clone` your forked version of desired ISC repo i.e `git clone https://github.com/DrCurry/LearningGit.git`
 3. navigate to the inside of the cloned directory i.e `cd https://github.com/iscumd/LearningGit.git`
 4. Add the original ISC repo as an upstream i.e `git remote add upstream https://github.com/iscumd/LearningGit.git`
+5. Set the user email (github email) for the repo `git config user.email "you@example.com"` If the computer you are working on is your personal machine, use `git config --global user.email "you@example.com"`DO NOT USE THE --global parameter IF YOU ARE SHARING THE MACHINE or ARE USING THE CLUB MACHINE.
 ### EVERYTIME, Before you start working
-5. To get the latest changes from the ISC repo `git pull upstream master`
-6. Include overall ISC repo changes into your fork `git push origin`
+6. To get the latest changes from the ISC repo `git pull upstream master`
+7. Include overall ISC repo changes into your fork `git push origin`
 ### AFTER Working on your repo
-7. 
-
-
-
+8. Run the `git add` and add your files that need to be submitted i.e `git add README.md` you may also add more than one file i.e `git add README.md file.txt pic.jpg` make sure there are spaces btwn multiple files
+9. Run `git commit -m` -m is the parameter for adding a commit message, it should contain helpful information on the changes you made i.e. `git commit -m "added a TLDR, on how not to piss off Brendan ken told me so"`
+10. Run `git push origin` and supply your github login credentials.
+11. Go to `www.github.com` and login. Go to the repo you were working on i.e `https://github.com/DrCurry/LearningGit` then click on `New pull request`
 
 
 
