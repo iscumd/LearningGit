@@ -10,7 +10,14 @@ You program like normal in a single folder (no copying different versions of fil
 
 When you want to add something, it is best to make a "branch" instead of committing directly to the "trunk", which is where we keep the mostly stable version of the project (sidenote: the trunk is actually just a special branch named "master"). This way, if something goes wrong or you want to work on something else, you can easily roll back your changes or switch to another version. After creating a branch and making your changes, you can merge those changes back into the trunk. [This tutorial](http://learngitbranching.js.org/) explains branching and merging in more detail.
 
-Collaborating with others adds a couple extra steps. You will first need to "fork" the main repository by pressing the "Fork" button in the top right of a repository page on GitHub (there are other ways to fork, but this is the easiest). This makes a copy of the repository under your own account. Here you can make create a branch and make your changes. When you have finished your contribution, you will ask the main repository to merge in your branch by making a "pull request". You can do this by pressing the "New pull request" button on the main repository page.
+Collaborating with others adds a couple extra steps. You will first need to "fork" the main repository by pressing the "Fork" button in the top right of a repository page on GitHub (there are other ways to fork, but this is the easiest). This makes a copy of the repository under your own account. Here you can make create a branch and make your changes. When you have finished your contribution, you will ask the main repository to merge in your branch by making a "pull request". You can do this by pressing the "New pull request" button on the main repository page. In order to update your local repository if others have made changes to the main ISC repository (i.e. done the above steps), you will need to:
+1. git fetch upstream
+2. git checkout master
+3. git merge upstream/master
+resolve any merge conflicts
+
+For ISC ROS work, it is suggested to clone your repository into the catkin_ws/src folder, i,e. catkin_ws/src/yourRepositoryName/*, and the * would contain src/msg/etc. 
+In order to pull the changes from a new
 
 ## How do I get started?
 1. Create a GitHub account. 
@@ -20,6 +27,9 @@ Collaborating with others adds a couple extra steps. You will first need to "for
 ## Where can I find more information?
 Here are some other good resources for learning Git.
 * https://help.github.com/ - GitHub's knowledge base for almost every question you could have about Git and GitHub.
+** https://help.github.com/articles/configuring-a-remote-for-a-fork/
+** https://help.github.com/articles/syncing-a-fork/
 * https://try.github.io/ - A great interactive tutorial on the concepts used in Git. This also teaches the command-line commands.
 * http://learngitbranching.js.org/ - A great interactive tutorial on branching and merging.
 * https://www.git-scm.com/book/en/v2/Git-Basics-Undoing-Things - There will eventually come a time when you want to undo something. Forgot to commit a file? Accidentally staged a file? Want to undo changes to a file? This page explains how to do so from the command-line.
+
