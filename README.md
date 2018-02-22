@@ -17,7 +17,6 @@ Collaborating with others adds a couple extra steps. You will first need to "for
 resolve any merge conflicts
 
 For ISC ROS work, it is suggested to clone your repository into the catkin_ws/src folder, i,e. catkin_ws/src/yourRepositoryName/*, and the * would contain src/msg/etc. 
-In order to pull the changes from a new
 
 ## How do I get started?
 1. Create a GitHub account. 
