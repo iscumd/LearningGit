@@ -12,7 +12,7 @@ When you want to add something, it is best to make a "branch" instead of committ
 
 Collaborating with others adds a couple extra steps. You will first need to "fork" the main repository by pressing the "Fork" button in the top right of a repository page on GitHub (there are other ways to fork, but this is the easiest). This makes a copy of the repository under your own account. Here you can create a branch and make your changes. When you have finished your contribution, you will ask the main repository to merge in your branch by making a "pull request". You can do this by pressing the "New pull request" button on the main repository page. In order to update your local repository if others have made changes to the main ISC repository (i.e. done the above steps), you will need to:
 1. `git checkout master`
-2. `git pull upstream/master` and resolve any merge conflicts
+2. `git pull upstream master` and resolve any merge conflicts
 
 For ISC ROS work, it is suggested to clone repositories into the `catkin_ws/src` folder, i.e. `catkin_ws/src/RepositoryName/*` where the `*` would contain `src`/`msg`/etc. 
 
