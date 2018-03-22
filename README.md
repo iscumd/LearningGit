@@ -14,7 +14,7 @@ Collaborating with others adds a couple extra steps. You will first need to "for
 1. `git checkout master`
 2. `git pull upstream master` and resolve any merge conflicts
 
-For ISC ROS work, it is suggested to clone repositories into the `catkin_ws/src` folder, i.e. `catkin_ws/src/RepositoryName/*` where the `*` would contain `src`/`msg`/etc. 
+For ISC ROS work, it is suggested to clone repositories into the `catkin_ws/src` folder, i.e. `catkin_ws/src/RepositoryName/*` where the `*` would contain `src`, `msg`, etc. 
 
 ## How do I get started?
 1. Create a GitHub account. 
@@ -31,8 +31,8 @@ For ISC ROS work, it is suggested to clone repositories into the `catkin_ws/src`
 4. Add the original repository as a **remote** named `upstream` with `git remote add upstream https://github.com/iscumd/LearningGit.git`.
 5. Set the **user email** for the repo to the same email as your GitHub account with `git config user.email "you@example.com"`. If the computer you are working on is your personal machine, use `git config --global user.email "you@example.com"`. **DO NOT** use the `--global` flag if you are on a shared machine such as a club laptop.
 ### Everytime before you start working
-1. Get the latest changes from the upstream repository with `git pull upstream`.
-2. If you are not in the middle of a major change and you're on the `master` branch, merge those changes in with `git merge upstream/master`.
+1. Switch to the `master` branch with `git checkout master`.
+2. Update your local repository with the changes in the `upstream` repository with `git pull upstream master`.
 3. When you start a new set of related changes, you make a **branch** with `git checkout -b branch_name`. Change `branch_name` to a meaningful name related to what your new changes will be.
 ### Periodically while you are working
 1. **Add** your files that need to be submitted with `git add README.md`. You may also add more than one file at once with `git add file.txt README.md pic.jpg`. Make sure there are spaces between files, and you can use Tab to quickly complete filenames. Use `git status` to see the files that are staged, files that are changed but not staged, and other useful information.
