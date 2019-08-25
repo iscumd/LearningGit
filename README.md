@@ -48,7 +48,7 @@ Here are some other good resources for learning Git.
 * https://help.github.com/ - GitHub's knowledge base for almost every question you could have about Git and GitHub.
   * [Configuring a Remote for a Fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
   * [Syncing a fork](https://help.github.com/articles/syncing-a-fork/)
-* https://try.github.io/ - A great interactive tutorial on the concepts used in Git. This also teaches the command-line commands.
+* https://try.github.io/ - A great collection of resources for learning Git. A handbook, cheat sheet, interactive tutorials, and more.
 * http://learngitbranching.js.org/ - A great interactive tutorial on branching and merging.
 * https://www.git-scm.com/book/en/v2/Git-Basics-Undoing-Things - There will eventually come a time when you want to undo something. Forgot to commit a file? Accidentally staged a file? Want to undo changes to a file? This page explains how to do so from the command-line.
 
