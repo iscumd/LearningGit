@@ -1,0 +1,5 @@
+Hello world, my name is Nico Bokhari and this is my first commit for LearningGit!
+
+I am a Software Engineering major, and I love ML, cats, and coffee.
+
+Getting used to using git exclusively on command line is quite something 
